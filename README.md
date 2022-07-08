@@ -1,6 +1,10 @@
-<h1>DDD Microservice Archetype</h1>
+DDD Microservice Archetype
+-
 
-<h2>Install</h2>
+* Java JDK 17
+* Maven 3.5 +
+
+# Install
 Go to target/generated-sources/archetype and execute the following command "mvn install -X"
 This will generate the .m2 archetype.
 
@@ -14,5 +18,6 @@ Now you can run the following command, in the folder where you want to create yo
 -DarchetypeArtifactId=domain-driven-design-archetype \
 -DarchetypeVersion=1.0-SNAPSHOT</i></div>
 
-<h2>Structure</h2>
+# Structure
+
 
